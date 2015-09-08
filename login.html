@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <title>My Project</title>
+  <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <!-- Login form! -->
+
+  <section id="login-form">
+    <h2>Login</h2>
+
+    <form method="POST" action="/login">
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+      <br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+
+      <br>
+
+      <input type="submit" value="You know you waaaant to" />
+
+    </form>
+  </section>
+
+    <!-- Sign-up form! -->
+  
+  <section id="signup-form"> 
+    <h2>Signup</h2>
+
+    <form method="GET" action="/signup">
+
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" />
+
+      <br>
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" />
+
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <br>
+
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password" placeholder="at least 5 characters" />
+
+      <br>
+
+      <input type="submit" value="Signup, yo" />
+
+    </form>
+  </section>
+
+</body>
+</html>
